@@ -1,0 +1,50 @@
+📁 Bibliometric-Analysis-by-Mahbub (Root)
+│
+├── 📄 START_HERE.md                    ⭐ READ THIS FIRST!
+├── 📄 UPLOAD_INSTRUCTIONS.md           ⭐ Upload guide
+├── 📄 index.html                       ⭐ Main course
+├── 📄 README.md                        ⭐ Main documentation
+├── 📄 GETTING_STARTED.md
+├── 📄 PROJECT_SUMMARY.md
+├── 📄 CONTRIBUTING.md
+├── 📄 CHANGELOG.md
+├── 📄 LICENSE
+├── 📄 .gitignore
+├── 📄 FOLDER_STRUCTURE.txt            (This file)
+│
+├── 📁 templates/
+│   ├── 📄 README.md
+│   ├── 📁 biblioshiny_scripts/
+│   │   └── 📄 complete_analysis_template.R  ⭐ Main R script
+│   ├── 📁 vosviewer_guides/
+│   │   └── 📄 .gitkeep
+│   └── 📁 paper_templates/
+│       └── 📄 .gitkeep
+│
+├── 📁 examples/
+│   └── 📁 sample_data/
+│       ├── 📄 README.md
+│       └── 📄 .gitkeep
+│
+└── 📁 resources/
+    ├── 📁 cheat_sheets/
+    │   └── 📄 biblioshiny_quick_reference.md  ⭐ Quick reference
+    └── 📁 video_tutorials/
+        └── 📄 .gitkeep
+
+---
+
+TOTAL FILES: 20+
+TOTAL FOLDERS: 9
+
+⭐ = Most Important Files
+
+---
+
+WHAT TO DO:
+1. Read START_HERE.md
+2. Follow UPLOAD_INSTRUCTIONS.md
+3. Upload everything to GitHub!
+
+Expected upload time: 10-15 minutes
+Difficulty: Easy ⭐

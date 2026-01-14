@@ -1,0 +1,33 @@
+# R and RStudio files
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# Output files
+outputs/
+*.pdf
+*.png
+*.jpg
+*.csv
+*.xlsx
+
+# System files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE files
+.vscode/
+.idea/
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+
+# Keep folder structure
+!examples/sample_data/.gitkeep
+!resources/video_tutorials/.gitkeep
