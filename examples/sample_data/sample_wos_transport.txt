@@ -1,0 +1,166 @@
+FN Clarivate Analytics Web of Science
+VR 1.0
+PT J
+AU Li, X
+   Wang, Y
+   Chen, Z
+AF Li, Xiaoming
+   Wang, Yong
+   Chen, Zheng
+TI Electric vehicle adoption in smart cities: A systematic review
+SO TRANSPORTATION RESEARCH PART D-TRANSPORT AND ENVIRONMENT
+LA English
+DT Review
+DE electric vehicles; smart cities; sustainable transportation; adoption barriers; policy
+ID BATTERY ELECTRIC VEHICLES; CONSUMER ACCEPTANCE; CHARGING INFRASTRUCTURE; ENVIRONMENTAL IMPACT; PURCHASE INTENTION
+AB This paper provides a comprehensive systematic review of electric vehicle (EV) adoption in smart cities. We analyze 150 peer-reviewed articles published between 2015-2024 to identify key factors influencing EV adoption, including infrastructure development, government policies, consumer attitudes, and technological advancements. Our findings reveal that charging infrastructure availability and government incentives are the most significant drivers of EV adoption. We also identify research gaps and propose future research directions for sustainable urban mobility.
+C1 [Li, Xiaoming] Tsinghua Univ, Dept Civil Engn, Beijing 100084, Peoples R China.
+   [Wang, Yong] MIT, Dept Urban Studies & Planning, Cambridge, MA 02139 USA.
+   [Chen, Zheng] Stanford Univ, Dept Civil & Environm Engn, Stanford, CA 94305 USA.
+RP Li, X (corresponding author), Tsinghua Univ, Dept Civil Engn, Beijing 100084, Peoples R China.
+EM li.x@tsinghua.edu.cn
+RI Li, Xiaoming/A-1234-2024; Wang, Yong/B-5678-2024
+OI Li, Xiaoming/0000-0001-2345-6789; Wang, Yong/0000-0002-3456-7890
+FU National Natural Science Foundation of China [Grant 52078123]; Ministry of Science and Technology
+FX This work was supported by the National Natural Science Foundation of China (Grant No. 52078123) and the Ministry of Science and Technology.
+CR Abbasi M., 2019, TRANSP RES PART D, V67, P123, DOI 10.1016/j.trd.2019.01.015
+   Brown J., 2020, ENERGY POLICY, V138, P111245, DOI 10.1016/j.enpol.2020.111245
+   Chen S., 2021, J CLEAN PROD, V280, P124567, DOI 10.1016/j.jclepro.2020.124567
+   Davis F.D., 1989, MIS QUART, V13, P319, DOI 10.2307/249008
+   European Commission, 2020, EUR GREEN DEAL
+   IEA, 2023, GLOBAL EV OUTLOOK
+   Kumar R., 2022, RENEW SUST ENERG REV, V158, P112156, DOI 10.1016/j.rser.2022.112156
+   Liu Y., 2023, TRANSPORT RES A-POL, V165, P102987, DOI 10.1016/j.tra.2022.102987
+   National Research Council, 2015, OVERCOMING BARRIERS
+   OECD, 2021, DECARBONISING TRANSP
+   Rezvani Z., 2015, RENEW SUST ENERG REV, V42, P1651, DOI 10.1016/j.rser.2014.10.083
+   Sierzchula W., 2014, ENERG POLICY, V65, P183, DOI 10.1016/j.enpol.2013.10.009
+   Smith J., 2021, CITIES, V115, P103234, DOI 10.1016/j.cities.2021.103234
+   Tesla Inc., 2023, SUSTAINABILITY REPORT
+   Wang S., 2022, TECHNOL FORECAST SOC, V175, P121398, DOI 10.1016/j.techfore.2021.121398
+NR 15
+TC 85
+Z9 87
+U1 12
+U2 120
+PU ELSEVIER SCI LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, OXON, ENGLAND
+SN 1361-9209
+EI 1879-2340
+J9 TRANSPORT RES D-TR E
+JI Transp. Res. Part D-Transp. Environ.
+PD JAN
+PY 2024
+VL 125
+BP 104012
+DI 10.1016/j.trd.2023.104012
+PG 18
+WC Environmental Studies; Transportation
+WE Science Citation Index Expanded (SCI-EXPANDED); Social Science Citation Index (SSCI)
+SC Environmental Sciences & Ecology; Transportation
+GA AB1CD2
+UT WOS:000123456789012
+DA 2025-01-15
+ER
+
+PT J
+AU Zhang, L
+   Kumar, A
+   Patel, S
+AF Zhang, Lei
+   Kumar, Amit
+   Patel, Sanjay
+TI Autonomous vehicles and urban planning: Challenges and opportunities
+SO JOURNAL OF TRANSPORT GEOGRAPHY
+LA English
+DT Article
+DE autonomous vehicles; urban planning; land use; parking; traffic management
+ID SELF-DRIVING CARS; AUTOMATED VEHICLES; CITY DESIGN; MOBILITY AS SERVICE; SHARED MOBILITY
+AB Autonomous vehicles (AVs) will fundamentally transform urban planning and city design. This study examines the potential impacts of AV adoption on urban form, land use patterns, and transportation infrastructure. Through scenario analysis and expert interviews with 50 urban planners across 10 cities, we identify key planning challenges including parking demand reduction, roadway redesign, and pedestrian safety. Our findings suggest that AVs could free up to 25% of urban land currently dedicated to parking, offering unprecedented opportunities for urban redevelopment.
+C1 [Zhang, Lei] UC Berkeley, Dept City & Reg Planning, Berkeley, CA 94720 USA.
+   [Kumar, Amit] TU Delft, Fac Architecture & Built Environm, NL-2628 BL Delft, Netherlands.
+   [Patel, Sanjay] Singapore Management Univ, Sch Econ, Singapore 178903, Singapore.
+RP Zhang, L (corresponding author), UC Berkeley, Dept City & Reg Planning, Berkeley, CA 94720 USA.
+EM zhang.lei@berkeley.edu
+RI Zhang, Lei/C-9012-2024; Kumar, Amit/D-3456-2024
+OI Zhang, Lei/0000-0003-4567-8901; Patel, Sanjay/0000-0004-5678-9012
+FU US Department of Transportation [Grant DTRT13-G-UTC58]
+CR Bansal P., 2017, TRANSPORT RES A-POL, V106, P283, DOI 10.1016/j.tra.2017.09.022
+   Fagnant DJ., 2015, TRANSPORT RES A-POL, V77, P167, DOI 10.1016/j.tra.2015.04.018
+   Milakis D., 2017, URBAN SCI, V1, P32, DOI 10.3390/urbansci1040032
+   Papa E., 2016, J TRANSPORT GEOGR, V57, P127, DOI 10.1016/j.jtrangeo.2016.10.005
+   Shladover SE., 2018, TRANSPORT RES A-POL, V108, P133, DOI 10.1016/j.tra.2017.12.002
+   Wadud Z., 2016, TRANSPORT RES A-POL, V87, P1, DOI 10.1016/j.tra.2015.12.001
+   Zhang W., 2019, J URBAN PLANN DEV, V145, P04019011, DOI 10.1061/(ASCE)UP.1943-5444
+NR 7
+TC 52
+Z9 54
+U1 8
+U2 65
+PU ELSEVIER SCI LTD
+J9 J TRANSP GEOGR
+JI J. Transp. Geogr.
+PD FEB
+PY 2023
+VL 108
+BP 103567
+DI 10.1016/j.jtrangeo.2023.103567
+PG 14
+WC Geography; Transportation
+WE Social Science Citation Index (SSCI)
+SC Geography; Transportation
+GA EF3GH4
+UT WOS:000234567890123
+DA 2025-01-15
+ER
+
+PT J
+AU Hassan, M
+   Ahmed, R
+AF Hassan, Mahbub
+   Ahmed, Rashid
+TI Public transport optimization using big data analytics: A case study
+SO TRANSPORTATION RESEARCH RECORD
+LA English
+DT Article
+DE public transport; big data; route optimization; passenger flow; smart cards
+ID BUS RAPID TRANSIT; TRAVEL DEMAND; PASSENGER COUNTING; ORIGIN-DESTINATION; DATA MINING
+AB This paper presents a novel approach to public transport optimization using big data analytics from smart card transactions. We analyze 10 million trip records from Bangkok's BTS Skytrain system to identify passenger flow patterns, peak hour demand, and route optimization opportunities. Our machine learning models achieve 92% accuracy in predicting passenger demand, enabling transit agencies to optimize service frequency and reduce operational costs by 15%. The methodology can be adapted to other transit systems worldwide.
+C1 [Hassan, Mahbub] Chulalongkorn Univ, Fac Engn, Dept Civil Engn, Bangkok 10330, Thailand.
+   [Ahmed, Rashid] Asian Inst Technol, Sch Engn & Technol, Pathum Thani 12120, Thailand.
+RP Hassan, M (corresponding author), Chulalongkorn Univ, Fac Engn, Dept Civil Engn, Bangkok 10330, Thailand.
+EM 6870376421@student.chula.ac.th
+RI Hassan, Mahbub/E-7890-2024
+OI Hassan, Mahbub/0000-0005-6789-0123
+FU Thailand Research Fund [Grant TRF-RDG2024001]; Chulalongkorn University
+CR Cats O., 2015, TRANSPORT RES C-EMER, V52, P133, DOI 10.1016/j.trc.2014.12.013
+   Gu Y., 2022, TRANSPORT RES REC, V2676, P234, DOI 10.1177/03611981221089456
+   Lee WH., 2021, TRANSPORT PLAN TECHN, V44, P567, DOI 10.1080/03081060.2021.1234567
+   Ma X., 2017, IEEE T INTELL TRANSP, V18, P891, DOI 10.1109/TITS.2016.2600504
+   Sun Y., 2020, TRANSPORT RES REC, V2674, P123, DOI 10.1177/0361198120923456
+NR 5
+TC 18
+Z9 19
+U1 3
+U2 25
+PU SAGE PUBLICATIONS INC
+J9 TRANSP RES REC
+JI Transp. Res. Rec.
+PD MAR
+PY 2024
+VL 2678
+IS 3
+BP 567
+EP 580
+DI 10.1177/03611981231234567
+PG 14
+WC Engineering, Civil; Transportation
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Engineering; Transportation
+GA IJ5KL6
+UT WOS:000345678901234
+DA 2025-01-15
+ER
+
+EF

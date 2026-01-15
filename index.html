@@ -499,62 +499,334 @@
             </div>
         </div>
 
-        <!-- Other sections would be here - adding key sections for demonstration -->
+                <!-- Other sections would be here - adding key sections for demonstration -->
         <div id="intro" class="content-section">
-            <h2 style="font-family: 'Cormorant Garamond', serif; font-size: 2.5rem; color: var(--chula-pink-dark); margin-bottom: 2rem;">Introduction to Bibliometric Analysis</h2>
-            
+            <h2 style="font-family: 'Cormorant Garamond', serif; font-size: 2.5rem; color: var(--chula-pink-dark); margin-bottom: 2rem;">Module 1: Introduction to Bibliometrics</h2>
+            <div class="tip-box">
+                <h4>⏱️ Duration: 1-2 Hours</h4>
+                <p><strong>Goal:</strong> Understand the theoretical foundations before diving into the tools.</p>
+            </div>
+
             <div class="step-container">
                 <div class="step-header" onclick="toggleStep(this)">
                     <div class="step-icon">📚</div>
                     <div class="step-title">
-                        <h3>What is Bibliometric Analysis?</h3>
-                        <p style="font-size: 0.9rem; color: var(--text-secondary);">Click to expand</p>
+                        <h3>1. Fundamentals & Key Concepts</h3>
+                        <p style="font-size: 0.9rem; color: var(--text-secondary);">Citations, Co-citations, and Coupling</p>
                     </div>
                 </div>
                 <div class="step-content">
-                    <p style="margin-bottom: 1.5rem;">Bibliometric analysis is a quantitative research method that uses statistical and mathematical techniques to analyze academic publications, citations, and research trends. It helps researchers understand the structure and dynamics of scientific fields.</p>
-                    
-                    <div class="tip-box">
-                        <h4>Key Applications</h4>
-                        <ul style="margin-left: 2rem; line-height: 2;">
-                            <li><strong>Research Trend Analysis:</strong> Identify emerging topics and declining research areas</li>
-                            <li><strong>Impact Assessment:</strong> Evaluate the influence of publications, authors, and institutions</li>
-                            <li><strong>Collaboration Patterns:</strong> Map research networks and international collaborations</li>
-                            <li><strong>Knowledge Structure:</strong> Understand how concepts and theories are connected</li>
-                        </ul>
-                    </div>
+                    <p>Bibliometric analysis uses statistical methods to analyze scientific publications. Key concepts include:</p>
+                    <ul>
+                        <li><strong>Citation Analysis:</strong> Who cites whom? Measures impact.</li>
+                        <li><strong>Co-citation Analysis:</strong> Two documents cited by a third. Measures relatedness of past work.</li>
+                        <li><strong>Bibliographic Coupling:</strong> Two documents citing the same third document. Measures relatedness of current work.</li>
+                        <li><strong>Co-word Analysis:</strong> Keywords appearing together. Maps conceptual structure.</li>
+                    </ul>
                 </div>
             </div>
 
+             <div class="step-container">
+                <div class="step-header" onclick="toggleStep(this)">
+                    <div class="step-icon">🌍</div>
+                    <div class="step-title">
+                        <h3>2. Real-World Applications</h3>
+                        <p style="font-size: 0.9rem; color: var(--text-secondary);">Why do we do this?</p>
+                    </div>
+                </div>
+                <div class="step-content">
+                     <ul>
+                        <li><strong>Identify Trends:</strong> emerging topics vs. declining ones.</li>
+                        <li><strong>Map Collaboration:</strong> find potential partners or influential institutions.</li>
+                        <li><strong>Literature Review:</strong> Provide a quantitative backbone to your qualitative review.</li>
+                    </ul>
+                </div>
+            </div>
+            
             <div style="margin-top: 2rem; text-align: center;">
-                <button class="btn" onclick="switchTab('data')">Continue to Data Collection →</button>
+                <button class="btn" onclick="switchTab('data')">Next: Data Collection →</button>
             </div>
         </div>
 
-        <!-- Placeholder sections for other tabs -->
         <div id="data" class="content-section">
-            <h2 style="font-family: 'Cormorant Garamond', serif; font-size: 2.5rem; color: var(--chula-pink-dark);">Data Collection Module</h2>
-            <p>Complete step-by-step guide for collecting bibliometric data from Web of Science and Scopus...</p>
+            <h2 style="font-family: 'Cormorant Garamond', serif; font-size: 2.5rem; color: var(--chula-pink-dark); margin-bottom: 2rem;">Module 2: Data Collection Strategies</h2>
+             <div class="tip-box">
+                <h4>⏱️ Duration: 2-3 Hours</h4>
+                <p><strong>Hands-On:</strong> Practice with provided sample datasets if you don't have institutional access.</p>
+            </div>
+
+            <div class="step-container">
+                <div class="step-header" onclick="toggleStep(this)">
+                    <div class="step-icon">🔍</div>
+                    <div class="step-title">
+                        <h3>1. Designing Search Queries</h3>
+                        <p style="font-size: 0.9rem; color: var(--text-secondary);">Boolean Operators & Wildcards</p>
+                    </div>
+                </div>
+                <div class="step-content">
+                    <p>The quality of your analysis depends entirely on your data. Use Boolean operators to refine your search:</p>
+                    <div class="code-block">
+TITLE-ABS-KEY ( "traffic safety" OR "road safety" ) 
+AND 
+TITLE-ABS-KEY ( "artificial intelligence" OR "deep learning" )
+                    </div>
+                    <p><strong>Tip:</strong> Use <code>*</code> for wildcards (e.g., <code>transport*</code> matches transport, transportation, transporting).</p>
+                </div>
+            </div>
+
+            <div class="step-container">
+                <div class="step-header" onclick="toggleStep(this)">
+                    <div class="step-icon">📥</div>
+                    <div class="step-title">
+                        <h3>2. Exporting Data (WoS & Scopus)</h3>
+                        <p style="font-size: 0.9rem; color: var(--text-secondary);">Getting the right format</p>
+                    </div>
+                </div>
+                <div class="step-content">
+                    <h4>Web of Science (WoS):</h4>
+                    <ol>
+                        <li>Select records (up to 500/1000 at a time).</li>
+                        <li>Click <strong>Export</strong> > <strong>Tab Delimited File</strong>.</li>
+                        <li>Record Content: Choose <strong>"Full Record and Cited References"</strong> (Crucial!).</li>
+                    </ol>
+                    <br>
+                    <h4>Scopus:</h4>
+                    <ol>
+                        <li>Select all documents.</li>
+                        <li>Click <strong>Export</strong> > <strong>CSV</strong>.</li>
+                        <li>Select ALL available information (Citation, Bibliographical, Abstract, Keywords, etc.).</li>
+                    </ol>
+                </div>
+            </div>
+             <div style="margin-top: 2rem; text-align: center;">
+                <button class="btn" onclick="switchTab('biblioshiny')">Next: Biblioshiny Analysis →</button>
+            </div>
         </div>
 
         <div id="biblioshiny" class="content-section">
-            <h2 style="font-family: 'Cormorant Garamond', serif; font-size: 2.5rem; color: var(--chula-pink-dark);">Biblioshiny Analysis Module</h2>
-            <p>Comprehensive R Biblioshiny tutorial...</p>
+            <h2 style="font-family: 'Cormorant Garamond', serif; font-size: 2.5rem; color: var(--chula-pink-dark); margin-bottom: 2rem;">Module 3: R Biblioshiny Analysis</h2>
+             <div class="tip-box">
+                <h4>⏱️ Duration: 4-6 Hours</h4>
+                <p><strong>Deliverables:</strong> 20+ publication-quality tables and plots.</p>
+            </div>
+
+            <div class="step-container">
+                <div class="step-header" onclick="toggleStep(this)">
+                    <div class="step-icon">💻</div>
+                    <div class="step-title">
+                        <h3>1. Installation & Setup</h3>
+                        <p style="font-size: 0.9rem; color: var(--text-secondary);">Getting R and RStudio ready</p>
+                    </div>
+                </div>
+                <div class="step-content">
+                    <p>Run the following command in RStudio to install and launch Biblioshiny:</p>
+                    <div class="code-block">
+install.packages("bibliometrix")
+library(bibliometrix)
+biblioshiny()
+                    </div>
+                    <p>This will open the web interface in your browser.</p>
+                </div>
+            </div>
+
+            <div class="step-container">
+                <div class="step-header" onclick="toggleStep(this)">
+                    <div class="step-icon">📊</div>
+                    <div class="step-title">
+                        <h3>2. Core Analyses</h3>
+                        <p style="font-size: 0.9rem; color: var(--text-secondary);">Overview, Sources, Authors, Documents</p>
+                    </div>
+                </div>
+                <div class="step-content">
+                    <ul>
+                        <li><strong>Main Information:</strong> Summary of timespan, document types, and collaboration index.</li>
+                        <li><strong>Annual Scientific Production:</strong> Growth of the field over time.</li>
+                        <li><strong>Most Relevant Sources:</strong> Top journals publishing on this topic (Bradford's Law).</li>
+                        <li><strong>Most Cited Documents:</strong> The foundational papers in the field.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="step-container">
+                <div class="step-header" onclick="toggleStep(this)">
+                    <div class="step-icon">🕸️</div>
+                    <div class="step-title">
+                        <h3>3. Conceptual Structure</h3>
+                        <p style="font-size: 0.9rem; color: var(--text-secondary);">Thematic Maps & Evolution</p>
+                    </div>
+                </div>
+                <div class="step-content">
+                    <p><strong>Thematic Map:</strong> Plots clusters based on Density (development) and Centrality (relevance).</p>
+                    <ul>
+                        <li><strong>Motor Themes:</strong> High density, High centrality (Mainstream, developed).</li>
+                        <li><strong>Niche Themes:</strong> High density, Low centrality (Developed but isolated).</li>
+                        <li><strong>Emerging/Declining:</strong> Low density, Low centrality.</li>
+                        <li><strong>Basic Themes:</strong> Low density, High centrality (General, foundational).</li>
+                    </ul>
+                </div>
+            </div>
+             <div style="margin-top: 2rem; text-align: center;">
+                <button class="btn" onclick="switchTab('vosviewer')">Next: VOSviewer Visualization →</button>
+            </div>
         </div>
 
         <div id="vosviewer" class="content-section">
-            <h2 style="font-family: 'Cormorant Garamond', serif; font-size: 2.5rem; color: var(--chula-pink-dark);">VOSviewer Module</h2>
-            <p>Complete VOSviewer visualization guide...</p>
+            <h2 style="font-family: 'Cormorant Garamond', serif; font-size: 2.5rem; color: var(--chula-pink-dark); margin-bottom: 2rem;">Module 4: VOSviewer Network Visualization</h2>
+            <div class="tip-box">
+                <h4>⏱️ Duration: 3-4 Hours</h4>
+                <p><strong>Deliverables:</strong> Professional network visualizations for your manuscript.</p>
+            </div>
+
+            <div class="step-container">
+                <div class="step-header" onclick="toggleStep(this)">
+                    <div class="step-icon">🔗</div>
+                    <div class="step-title">
+                        <h3>1. Network Construction</h3>
+                        <p style="font-size: 0.9rem; color: var(--text-secondary);">Creating Maps from Bibliographic Data</p>
+                    </div>
+                </div>
+                <div class="step-content">
+                    <p>Select "Create" > "Create a map based on bibliographic data".</p>
+                    <ul>
+                        <li><strong>Co-authorship:</strong> See research groups and country collaboration.</li>
+                        <li><strong>Co-occurrence:</strong> Keyword analysis to find topic clusters.</li>
+                        <li><strong>Citation:</strong> Direct citation links between documents/sources.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="step-container">
+                <div class="step-header" onclick="toggleStep(this)">
+                    <div class="step-icon">🎨</div>
+                    <div class="step-title">
+                        <h3>2. Customization & Styling</h3>
+                        <p style="font-size: 0.9rem; color: var(--text-secondary);">Making it Publication-Ready</p>
+                    </div>
+                </div>
+                <div class="step-content">
+                    <ul>
+                        <li><strong>Scale:</strong> Adjust node size based on citations or occurrences.</li>
+                        <li><strong>Colors:</strong> Use distinct color palettes (e.g., Viridis) for clusters.</li>
+                        <li><strong>Labels:</strong> Avoid overlap, set minimum strength to filter noise.</li>
+                        <li><strong>Export:</strong> Save as high-res PNG or vector (PDF/SVG) for best print quality.</li>
+                    </ul>
+                    <p><em>Check the templates folder for the detailed VOSviewer guide.</em></p>
+                </div>
+            </div>
+             <div style="margin-top: 2rem; text-align: center;">
+                <button class="btn" onclick="switchTab('writing')">Next: Writing Your Paper →</button>
+            </div>
         </div>
 
         <div id="writing" class="content-section">
-            <h2 style="font-family: 'Cormorant Garamond', serif; font-size: 2.5rem; color: var(--chula-pink-dark);">Writing Your Paper</h2>
-            <p>Transform your analysis into publication...</p>
+            <h2 style="font-family: 'Cormorant Garamond', serif; font-size: 2.5rem; color: var(--chula-pink-dark); margin-bottom: 2rem;">Module 5: Writing & Publishing</h2>
+             <div class="tip-box">
+                <h4>⏱️ Duration: 2-3 Hours</h4>
+                <p><strong>Goal:</strong> Transform your analysis into a Q1 Journal Manuscript.</p>
+            </div>
+
+            <div class="step-container">
+                <div class="step-header" onclick="toggleStep(this)">
+                    <div class="step-icon">📝</div>
+                    <div class="step-title">
+                        <h3>1. Standard Paper Structure</h3>
+                        <p style="font-size: 0.9rem; color: var(--text-secondary);">IMRAD for Bibliometrics</p>
+                    </div>
+                </div>
+                <div class="step-content">
+                    <ul>
+                        <li><strong>Introduction:</strong> Background, research gap, specific research questions (RQs).</li>
+                        <li><strong>Methodology:</strong> Database choice, search string, inclusion/exclusion criteria (PRISMA).</li>
+                        <li><strong>Results:</strong>
+                            <ul>
+                                <li>Performance Analysis (Productivity, Citations)</li>
+                                <li>Science Mapping (Co-word, Co-citation networks)</li>
+                            </ul>
+                        </li>
+                        <li><strong>Discussion:</strong> Interpret the clusters, future research directions.</li>
+                        <li><strong>Conclusion:</strong> Summary and implications.</li>
+                    </ul>
+                </div>
+            </div>
+
+             <div class="step-container">
+                <div class="step-header" onclick="toggleStep(this)">
+                    <div class="step-icon">✅</div>
+                    <div class="step-title">
+                        <h3>2. Best Practices</h3>
+                        <p style="font-size: 0.9rem; color: var(--text-secondary);">Do's and Don'ts</p>
+                    </div>
+                </div>
+                <div class="step-content">
+                    <ul>
+                        <li><strong>DO:</strong> Combine quantitative stats with qualitative insight. Read the key papers in the clusters!</li>
+                        <li><strong>DON'T:</strong> Just list numbers. Explain <em>why</em> a trend is happening.</li>
+                        <li><strong>DO:</strong> Use the PRISMA flow diagram to show your selection process.</li>
+                    </ul>
+                </div>
+            </div>
+             <div style="margin-top: 2rem; text-align: center;">
+                <button class="btn" onclick="switchTab('resources')">Next: Resources & Downloads →</button>
+            </div>
         </div>
 
         <div id="resources" class="content-section">
-            <h2 style="font-family: 'Cormorant Garamond', serif; font-size: 2.5rem; color: var(--chula-pink-dark);">Resources & Downloads</h2>
-            <p>Templates, datasets, and reference materials...</p>
+            <h2 style="font-family: 'Cormorant Garamond', serif; font-size: 2.5rem; color: var(--chula-pink-dark); margin-bottom: 2rem;">Module 6: Resources & Templates</h2>
+            <div class="tip-box">
+                <h4>📦 Everything You Need</h4>
+                <p>All templates and datasets are located in the project folders.</p>
+            </div>
+
+            <div class="module-grid">
+                 <div class="module-card">
+                    <div class="module-number">📂</div>
+                    <h3>Templates</h3>
+                    <ul>
+                        <li><strong>Paper Structure:</strong> <code>templates/paper_templates/</code></li>
+                        <li><strong>R Analysis Script:</strong> <code>templates/biblioshiny_scripts/</code></li>
+                        <li><strong>Python Script:</strong> <code>templates/python_scripts/</code></li>
+                    </ul>
+                </div>
+
+                <div class="module-card">
+                    <div class="module-number">💾</div>
+                    <h3>Sample Data</h3>
+                    <ul>
+                        <li><strong>Web of Science:</strong> <code>examples/sample_data/sample_wos_transport.txt</code></li>
+                        <li><strong>Scopus:</strong> <code>examples/sample_data/sample_scopus_transport.csv</code></li>
+                    </ul>
+                </div>
+
+                 <div class="module-card">
+                    <div class="module-number">📘</div>
+                    <h3>Guides</h3>
+                    <ul>
+                        <li><strong>VOSviewer Manual:</strong> <code>templates/vosviewer_guides/</code></li>
+                        <li><strong>Cheat Sheets:</strong> <code>resources/cheat_sheets/</code></li>
+                    </ul>
+                </div>
+            </div>
+            
+             <div class="step-container" style="margin-top: 2rem;">
+                <div class="step-header" onclick="toggleStep(this)">
+                    <div class="step-icon">🐍</div>
+                    <div class="step-title">
+                        <h3>New: Python Alternative</h3>
+                        <p style="font-size: 0.9rem; color: var(--text-secondary);">For those who prefer Python over R</p>
+                    </div>
+                </div>
+                <div class="step-content">
+                    <p>We have added a complete Python script that mimics the core functionality of Biblioshiny.</p>
+                    <p>Located at: <code>templates/python_scripts/bibliometric_analysis_python.py</code></p>
+                    <p>Features:</p>
+                    <ul>
+                        <li>Data cleaning and processing</li>
+                        <li>Descriptive statistics</li>
+                        <li>Network generation (ready for VOSviewer)</li>
+                        <li>Visualization using Matplotlib/Seaborn</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 
